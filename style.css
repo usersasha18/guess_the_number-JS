@@ -136,3 +136,10 @@ body {
 .answer_counter {
     padding: 0 20px;
 }
+
+
+.lose-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
