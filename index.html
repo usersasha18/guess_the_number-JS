@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- модальное окно при запуске страницы -->
+    <div class="start-modal">
+        <div class="close-button-modal">X</div>
+        <div class="start">
+            <h1>Добро пожаловать в игру "Угадай число"</h1>
+        </div>
+    </div>
+    <!-- сообщение при победе в игре -->
+    <div class="win-mobal"></div>
+    
+    <div class="container">
+
+        <div class="header">
+            <h1 class="title">Угадай число</h1>
+            <button class="theme">Смена темы</button>
+        </div>
+        <div class="answer_counter"></div>
+        <div class="numbers">
+            <div class="number"></div>
+            <div class="number"></div>
+            <div class="number"></div>
+            <div class="number"></div>
+        </div>
+
+    </div>
+    <script src="theme.js"></script>
+    <script src="startMessage.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
